@@ -10,7 +10,7 @@
     "test": "newman run collections/restFullBooker.postman_collection.json -r htmlextra --reporter-htmlextra-export./results/report.html"
   },
   "dependencies": {
-    "newman": "^2.1.2",
-    "newman-reporter-htmlextra": "^1.22.5"
+    "newman": "^6.2.2",
+    "newman-reporter-htmlextra": "^1.23.1"
   }
 }
