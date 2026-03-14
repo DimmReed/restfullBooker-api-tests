@@ -7,7 +7,11 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "newman run collections/restFullBooker.postman_collection.json -r htmlextra --reporter-htmlextra-export newman-report.html"
   },
-  "dependencies": {}
+  "dependencies": {
+    "newman": "^6.2.2",
+    "newman-reporter-htmlextra": "^1.23.1"
+
+  }
 }
